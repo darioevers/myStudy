@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Boxes</title>
+    <meta name="description" content="This is the dev-environment of darioevers.com">
+    <meta name="author" content="Dario Evers">
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            /* background-attachment: fixed; */
+            background-position: center;
+            font-family: sans-serif
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 10px;
+        }
+
+        div.box1 {
+            border: 2px solid red;
+            width: 60%;
+            margin: auto;
+            padding-left: 35px;
+            padding-right: 35px;
+            border-top-width: 6px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+        }
+
+        div.box2 {
+            border: 2px solid black;
+            width: 22%;
+            margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-top-width: 6px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div.box3 {
+            border: 2px solid black;
+            width: 23%;
+            margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-top-width: 6px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div.box4 {
+            border: 2px solid black;
+            width: 23%;
+            margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-top-width: 6px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div.box5 {
+            border: 2px solid black;
+            width: 23%;
+            margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-top-width: 6px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div.box6 {
+            border: 2px solid black;
+            width: 50%;
+            margin: auto;
+            margin-top: 30px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            text-align: center;
+            overflow: hidden
+        }
+
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        .p1 {
+            margin-left: 25px;
+            margin-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and menu
+-->
+    <header style="background-color: black; padding-bottom: 5px">
+        <img style="width:100%; height:100px" id="image" src="images/header.jpg">
+        <br>
+        <nav style="width:800px; margin:0 auto;">
+            <button onclick="window.location.href='http://dev.darioevers.com';" style="margin-right:25px;">
+                Main Page
+            </button>
+            <button onclick="window.location.href='http://dev.darioevers.com/html1-3.html';" style="margin-right:25px;">
+                HTML Days 1-3
+            </button>
+            <button onclick="window.location.href='http://dev.darioevers.com/css.html';" style="margin-right:25px;">
+                CSS Days 3-?
+            </button>
+            <span style="color:white">&lt;- Revisit learning material</span>
+        </nav>
+    </header>
+
+
+    <main style="width:800px; margin:0 auto;">
+        <article>
+            <div>
+                <br>
+                <h1 id="top">The CSS Box Model</h1>
+                <div class="box1">
+                    <p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.</p>
+                </div>
+                <br>
+                <br>
+                <p class="p1">The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</p>
+                <img src="images/boxmodel.png" alt="css-boxmodel" class="image" width=450px>
+            </div>
+            <div>
+                <br><br>
+                <p class="p1">Explanation of the different parts:</p>
+                <ul>
+                    <li><b>Content</b> - The content of the box, where text and images appear</li>
+                    <li><b>Padding</b> - Clears an area around the content. The padding is transparent</li>
+                    <li><b>Border</b> - A border that goes around the padding and content</li>
+                    <li><b>Margin</b> - Clears an area outside the border. The margin is
+                        transparent</li>
+                </ul>
+                <br>
+            </div>
+            <div>
+                <hr>
+                <br><br>
+                <div class="box2">
+                    <p>Box 1<br>
+                        <button onclick="window.location.href='http://dev.darioevers.com';" style="margin-right:25px;">
+                            Main Page
+                        </button>
+                    </p>
+                </div>
+                <div class="box3">
+                    <p>Box 2</p>
+                </div>
+                <div class="box4">
+                    <p>Box 3</p>
+                </div>
+                <div class="box5">
+                    <p>Box 4</p>
+                </div>
+                <br>
+                <div class="box6">
+                    <img src="images/image1.png" alt="css-boxmodel">
+                </div>
+            </div>
+        </article>
+    </main>
+    <hr>
+
+
+</body></html>

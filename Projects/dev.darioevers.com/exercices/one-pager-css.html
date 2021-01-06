@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Pager Menu with CSS</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        main {
+            margin: 0 10px;
+        }
+
+        section {
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: brown;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 99;
+
+        }
+
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: coral;
+            color: brown;
+        }
+
+        nav a:active {
+            background-color: burlywood
+        }
+
+        img {
+            width: 350px;
+            filter: grayscale(1)
+        }
+
+        img:hover {
+            filter: grayscale(0)
+        }
+
+        h1 {
+            margin-top: 50px;
+            scroll-margin-top: 50px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Home</h1>
+        <br>
+        <h3>Image with Mouse-over Transition</h3>
+        <figure>
+            <img src="images/bg.jpg" alt="background">
+            <figcaption>hover over me.</figcaption>
+        </figure>
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+    </section>
+
+</body></html>

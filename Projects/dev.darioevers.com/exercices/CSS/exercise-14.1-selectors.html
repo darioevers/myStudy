@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+
+    <style>
+        /* Give the <section> element background-color: lightblue. */
+        section {
+            background-color: lightblue
+        }
+
+        /* Give the <article> element background-color: lightgray. */
+        article {
+            background-color: lightgray
+        }
+
+        /* Select all <p> elements which are descendants of <section>, and change the font size to 24px (font-size). */
+        section p {
+            font-size: 24px
+        }
+
+        /* Select all <p> elements which are direct/immediate children of <section>, and give them the text color "red". */
+        section>p {
+            color: red
+        }
+
+        /* Add a class attribute to the last <p> element, and use the class selector to change the text color into "green". */
+        p .green {
+            color: green
+        }
+    </style>
+
+</head>
+
+<header style="background-color: black; padding-bottom: 5px">
+    <img style="width:100%; height:100px" id="image" src="images/header.jpg">
+    <br>
+    <nav style="width:800px; margin:0 auto;">
+        <button onclick="window.location.href='http://dev.darioevers.com';" style="margin-right:25px;">
+            Main Page
+        </button>
+        <button onclick="window.location.href='http://dev.darioevers.com/html1-3.html';" style="margin-right:25px;">
+            HTML Days 1-3
+        </button>
+        <button onclick="window.location.href='http://dev.darioevers.com/css.html';" style="margin-right:25px;">
+            CSS Days 3-?
+        </button>
+        <span style="color:white">&lt;- Revisit learning material</span>
+    </nav>
+</header>
+
+<body>
+
+    <h1>CSS Selectors</h1>
+
+    <section>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ipsam fugit aliquam. Quam provident expedita reiciendis neque aspernatur velit illum.</p>
+
+        <article>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste facere, inventore neque quas ratione voluptatibus reprehenderit illo perspiciatis incidunt autem.</p>
+
+        </article>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vitae eum mollitia sint itaque officia distinctio. Quia atque earum magnam!</p>
+
+
+    </section>
+
+    <p class="green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, eveniet, sint. Labore recusandae laudantium quasi aut consectetur nam, ad dolorum.</p>
+
+</body></html>

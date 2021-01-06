@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Backgrounds</title>
+    <meta name="description" content="This is the dev-environment of darioevers.com">
+    <meta name="author" content="Dario Evers">
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            /* background-attachment: fixed; */
+            background-position: center;
+            font-family: sans-serif
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and menu
+-->
+    <header style="background-color: black; padding-bottom: 5px">
+        <img style="width:100%; height:100px" id="image" src="images/header.jpg">
+        <br>
+        <nav style="width:800px; margin:0 auto;">
+            <button onclick="window.location.href='http://dev.darioevers.com';" style="margin-right:25px;">
+                Main Page
+            </button>
+            <button onclick="window.location.href='http://dev.darioevers.com/html1-3.html';" style="margin-right:25px;">
+                HTML Days 1-3
+            </button>
+            <button onclick="window.location.href='http://dev.darioevers.com/css.html';" style="margin-right:25px;">
+                CSS Days 3-?
+            </button>
+            <span style="color:white">&lt;- Revisit learning material</span>
+        </nav>
+    </header>
+
+
+    <main style="width:800px; margin:0 auto;">
+        <article>
+            <div>
+                <br>
+                <h1 id="top">Backgrounds with CSS</h1>
+                <p style="margin-right:150px;">The CSS background properties are used to define the background effects
+                    for elements.</p>
+                <p>What are possible CSS background properties:</p>
+                <ul>
+                    <li>background-color</li>
+                    <li>background-image</li>
+                    <li>background-repeat</li>
+                    <li>background-attachment</li>
+                    <li>background-position</li>
+                </ul>
+                <br>
+            </div>
+            <hr>
+            <div>
+                <br>
+                <h2 id="background-color">CSS background-color</h2>
+                <p style="margin-right:150px;">The background-color property specifies the background color of an element.</p>
+                <p>With CSS, a color is most often specified by:</p>
+                <ul>
+                    <li>a valid color name - like &quot;red&quot;</li>
+                    <li>a HEX value - like &quot;#ff0000&quot;</li>
+                    <li>an RGB value - like &quot;rgb(255,0,0)&quot;</li>
+                </ul>
+                <a href="https://color.adobe.com/create/color-wheel">Check the Adobe Color Wheel to select colors.</a>
+                <br>
+            </div>
+            <hr>
+            <div>
+                <br>
+                <h2 id="background-color">CSS background-image</h2>
+                <p style="margin-right:150px;">The background-image property specifies an image to use as the background of an element. By default, the image is repeated so it covers the entire element.</p>
+                <p>Some CSS background-image specifications </p>
+                <ul>
+                    <li>background-repeat</li>
+                    <li>background-no-repeat</li>
+                    <li>background-position</li>
+                </ul>
+                <br>
+            </div>
+        </article>
+    </main>
+    <hr>
+
+
+</body></html>
