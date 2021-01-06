@@ -24,7 +24,7 @@ console.log(Math.floor(28.329));
 let introSentence = 'Hi, my name is Nancy and I am ';
 let age = 25;
 console.log(introSentence + age);
-// Comment: The + operator, in this case, is combining the string introSentence and the string age and prints it into one single row.
+// Comment: The + operator, in this case, is combining the string introSentence and the numeric value age and prints it into one single row.
 
 // 6. Create a variable with the value of “1005”. Convert it to a number.
 var numberOne = '1005';
