@@ -12,7 +12,7 @@ const display = (str) => {
 print('Hi');
 display('cool');
 
-// 3. Math function. Even shorter because its only one function. No curly brackets needed. (ES6)
+// 3. Math function. Even shorter because its only one function. No curly brackets needed here. (ES6)
 const sum = (x,y) => x+y;
 console.log(sum(3,4));
 
