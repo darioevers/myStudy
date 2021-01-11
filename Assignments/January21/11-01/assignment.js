@@ -79,3 +79,13 @@ const nameArr = ['Dario', 'norman'];
 for(let i=0; i < nameArr.length; i++) {
     console.log(nameArr[i][0].toUpperCase() + nameArr[i].slice(1));
 }
+
+// 13. Ternary Operators and IF ELSE function.
+console.log(1 == 11 ? 'cool' : 'noooo')
+
+let isSmart = false;
+if (isSmart){
+    console.log('coool')
+} else{
+    console.log('nooooo')
+}
