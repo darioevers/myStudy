@@ -4,7 +4,7 @@ function print(str) {
     console.log(str);
 }
 // 2. Updated way of adding functions: Function as a variable insted of function keyword.
-const display= (str)=>{
+const display = (str) => {
     console.log(str);
 }
 
