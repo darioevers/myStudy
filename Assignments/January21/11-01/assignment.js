@@ -48,13 +48,13 @@ console.log(numbers[5]);
 let hobbiesArr = ['Computer', 'Outside', 'Sports']
 console.log(hobbiesArr[1]);
 
-//10. DRY, declare variable with index number. Increasing the index number inbetween console.logs.
+// 10. DRY, declare variable with index number. Increasing the index number inbetween console.logs.
 let foodArr = ['Pasta', 'Salmon', 'Avocado']
 let i = 0;
 console.log(foodArr[i])
 i++;
 
-//11. Loops will continue their action until the result is faulty. Loops can be infinite, but thats considered bad behaviour.
+// 11. Loops will continue their action until the result is faulty. Loops can be infinite, but thats considered bad behaviour.
 let cityArr = ['Hamburg', 'Berlin', 'Leipzig']
 for(let i=0;i < cityArr.length;i++) {
     console.log(cityArr[i]);
@@ -66,4 +66,10 @@ for (let i = 1; i <= 10; i++) {
     // 1 * 1 = 1
     console.log(`${i} * 1 = ${i * 1}`);
     //   console.log(i. ' * 1 = ', i * 1);
+}
+
+// 12. Make an array output uppercase.
+const chrArr = ['a', 'b', 'c'];
+for(let i=0; i < chrArr.length;i++) {
+    console.log(chrArr[i].toUpperCase());
 }
