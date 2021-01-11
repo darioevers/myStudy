@@ -98,3 +98,17 @@ if (22*3==229+3){
     count--;
     console.log("No that's \n this is new line");
 }
+
+// Examples for brackets:
+// functions, if else, objects, scopes are all with {} curly brackets.
+// array, strings are all with [] brackets.
+// if conditions, method, conditioin function call are  all with () .
+
+let a = true;
+let b = false;
+let c = 11==23;
+if (a ==b && c !=a || c ==a){
+    console.log('wow');
+} else{
+    console.log('I dont know what you need from me');
+}
