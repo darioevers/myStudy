@@ -77,5 +77,5 @@ for(let i=0; i < chrArr.length;i++) {
 // 12.1 Make the first character of a name uppercase. Called out of an array.
 const nameArr = ['Dario', 'norman'];
 for(let i=0; i < nameArr.length; i++) {
-    console.log(nameArr[i][0].toUpperCase());
+    console.log(nameArr[i][0].toUpperCase() + nameArr[i].slice(1));
 }
