@@ -112,3 +112,40 @@ if (a ==b && c !=a || c ==a){
 } else{
     console.log('I dont know what you need from me');
 }
+
+// 14. ASSIGNMENT: Write a program that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. “2 is even”).
+for (let i = 0 ; i <=20; i++){
+    i % 2 == 0  ? console.log(i + ' is even.') : console.log(i + ' is odd.');
+}
+
+// 15. ASSIGNMENT: Write programs that produce the following outputs:
+
+// 15.1: 100 200 300 400 500 600 700 800 900 1000
+for (let i = 100; i <=100; i++){
+    console.log(`${i} ${i + 100} ${i + 200} ${i + 300} ${i + 400} ${i + 500} ${i + 600} ${i + 700} ${i + 800} ${i + 900}`);
+}
+
+// 15.2: 0 2 4 6 8 10
+for (let i = 0; i <=0; i++){
+    console.log(`${i} ${i + 2} ${i + 4} ${i + 6} ${i + 8} ${i + 10}`);
+}
+
+// 15.3: 3 6 9 12 15
+for (let i = 3; i <=3; i++){
+    console.log(`${i} ${i + 3} ${i + 6} ${i + 9} ${i + 12}`);
+}
+
+// 15.4: 9 8 7 6 5 4 3 2 1 0
+for (let i = 9; i <=9; i++){
+    console.log(`${i} ${i - 1} ${i - 2} ${i - 3} ${i - 4} ${i - 5} ${i - 6} ${i - 7} ${i - 8} ${i - 9}`);
+}
+
+// 15.5: 1 1 1 2 2 2 3 3 3 4 4 4
+for (let i = 1; i <=1; i++){
+    console.log(`${i} ${i} ${i} ${i * 2} ${i * 2} ${i * 2} ${i * 3} ${i * 3} ${i * 3} ${i * 4} ${i * 4} ${i * 4}`);
+}
+
+// 15.6: 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
+for (let i = 0; i <=0; i++){
+    console.log(`${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4} ${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4} ${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4}`);
+}
