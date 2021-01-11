@@ -32,7 +32,7 @@ const login = ()=>{
 login();
 
 // 7. How to put more variables into one variable.
-// 7.1 One variable per line.
+// 7.1 One variable per line. Not best behaviour.
 let name1 = 'Dario';
 let name2 = 'Norman';
 let name3 = 'Paula';
