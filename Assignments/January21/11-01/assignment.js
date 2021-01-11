@@ -19,3 +19,14 @@ console.log(sum(3,4));
 // 4. isBigger function with a variable instead of a function keyword. (ES6)
 const isBigger = (num1,num2)=> num1<num2;
 console.log(isBigger(33, 43));
+
+// 5. Function which adds variables in a sentence and prints it.
+const printFullWord = (firstName, age, add) => console.log(`Hi ${firstName}, I am ${age} years old, I live in ${add}.`);
+printFullWord('Dario', 25, 'Hamburg');
+
+// 6. Change login status without log and so to change online status everytime the login function is called.
+let isLogged = false;
+const login = ()=>{
+    isLogged = true;
+}
+login();
