@@ -15,3 +15,7 @@ display('cool');
 // 3. Math function. Even shorter because its only one function. No curly brackets needed. (ES6)
 const sum = (x,y) => x+y;
 console.log(sum(3,4));
+
+// 4. isBigger function with a variable instead of a function keyword. (ES6)
+const isBigger = (num1,num2)=> num1<num2;
+console.log(isBigger(33, 43));
