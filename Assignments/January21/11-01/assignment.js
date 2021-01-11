@@ -85,7 +85,16 @@ console.log(1 == 11 ? 'cool' : 'noooo')
 
 let isSmart = false;
 if (isSmart){
-    console.log('coool')
+    console.log('coool');
 } else{
-    console.log('nooooo')
+    console.log('nooooo');
+}
+
+let count = 0;
+if (22*3==229+3){
+    count++;
+    console.log('You are correct');
+} else{
+    count--;
+    console.log("No that's \n this is new line");
 }
