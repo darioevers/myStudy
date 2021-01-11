@@ -30,3 +30,16 @@ const login = ()=>{
     isLogged = true;
 }
 login();
+
+// 7. How to put more variables into one variable.
+// 7.1 One variable per line.
+let name1 = 'Dario';
+let name2 = 'Norman';
+let name3 = 'Paula';
+// 7.2 Multiple variables in a line. They can be called with the [] brackets. This function is called Array.
+let namesArr = ['Dario', 'Norman', 'Paula'];
+console.log(namesArr[1]);
+
+// 8. Print a specific value of an array. The index number has nothing to do with the output value.
+const numbers = [0, 1, 2, 3, 4, 6, 5, 7, 8, 9];
+console.log(numbers[5]);
