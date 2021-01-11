@@ -73,3 +73,8 @@ const chrArr = ['a', 'b', 'c'];
 for(let i=0; i < chrArr.length;i++) {
     console.log(chrArr[i].toUpperCase());
 }
+
+const nameArr = ['Dario', 'norman'];
+for(let i=0; i < nameArr.length; i++) {
+    console.log(nameArr[i][0].toUpperCase());
+}
