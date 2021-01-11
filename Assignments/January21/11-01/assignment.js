@@ -11,3 +11,7 @@ const display = (str) => {
 }
 print('Hi');
 display('cool');
+
+// 3. Math function. Even shorter because its only one function. No curly brackets needed.
+const sum = (x,y) => x+y;
+console.log(sum(3,4));
