@@ -149,3 +149,41 @@ for (let i = 1; i <=1; i++){
 for (let i = 0; i <=0; i++){
     console.log(`${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4} ${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4} ${i} ${i + 1} ${i + 2} ${i + 3} ${i + 4}`);
 }
+
+// 16. ASSIGNMENT SOLUTIONS: Write programs that produce the following outputs:
+
+// 15.1: 100 200 300 400 500 600 700 800 900 1000
+
+// 15.2: 0 2 4 6 8 10
+let text = ' ';
+for (let i = 0; i <= 10; i++){
+    if (i % 2 == 0) {
+        text += i + ' '
+    }
+}
+console.log(text);
+
+// 15.4: 9 8 7 6 5 4 3 2 1 0
+let text2 = ' '
+for(let i = 9; i > 0; i--){
+    text2 += i + ' '
+}
+console.log(text2);
+
+// 15.5: 1 1 1 2 2 2 3 3 3 4 4 4
+let text3 = ' '
+for (let i = 1; i <= 4; i++){
+    for (let j = 0; j < 3; j++) {
+        text3 += i + ' ';
+    }
+}
+console.log(text3)
+
+// 15.6: 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
+text4 = '';
+for (let i = 1; i <= 3; i++) {
+    for (let j = 0; j <= 4; j++) {
+        text4 += j + ' ';
+    }
+}
+console.log(text4);
