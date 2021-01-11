@@ -24,7 +24,7 @@ console.log(isBigger(33, 43));
 const printFullWord = (firstName, age, add) => console.log(`Hi ${firstName}, I am ${age} years old, I live in ${add}.`);
 printFullWord('Dario', 25, 'Hamburg');
 
-// 6. Change login status without log and so to change online status everytime the login function is called.
+// 6. Change login status everytime the login function is called. No console.log needed.
 let isLogged = false;
 const login = ()=>{
     isLogged = true;
