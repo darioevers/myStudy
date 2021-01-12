@@ -118,6 +118,8 @@ let firstShape = 'T';
     console.log(thirdShape);
   }
 
+  let forthShape = '';
+
 
 
 console.log("--------Exercise-------");
