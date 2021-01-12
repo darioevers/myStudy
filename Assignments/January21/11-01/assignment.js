@@ -187,3 +187,12 @@ for (let i = 1; i <= 3; i++) {
     }
 }
 console.log(text4);
+
+// Note for assignment tomorrow:
+
+let str = 'Hi this is me';
+let strToArr = str.split(' ');
+console.log(strToArr);
+let backToSt = strToArr.join(' ');
+console.log(backToSt);
+console.log('hi'.repeat(3));
