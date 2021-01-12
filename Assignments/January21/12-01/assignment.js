@@ -148,6 +148,18 @@ inventoryCheck("cheese") returns true
 inventoryCheck( "ham") returns false 
 */
 
+const inventoryCheck = product => {
+    let storeArr = ['Milk', 'Eggs', 'Cheese', 'Butter'];
+    var availProducts = storeArr.includes(product);
+    if (availProducts){
+        console.log('This product is available.');
+    } else{
+        console.log('This product is currently not available.');
+    }
+  }
+  inventoryCheck('Cheese')
+  inventoryCheck('Ham')
+
 console.log("--------Exercise-------");
 // Extra work :)
 // create a repo for this app. we are coming later to it :)
