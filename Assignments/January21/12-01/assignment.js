@@ -25,7 +25,7 @@ console.log("--------Exercise-------");
 
 // dogAge(4) ➞ "Your doggy is 28 years old in dog years!"
 
-var randomDogAge = Math.floor(Math.random() * 9);
+var randomDogAge = Math.ceil(Math.random() * 9);
 console.log(`${randomDogAge} is the human-age of this Dog.`);
 var calcDogAge = randomDogAge * 7;
 console.log(`${calcDogAge} is the calculated age in dog-years.`);
