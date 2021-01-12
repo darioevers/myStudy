@@ -77,8 +77,8 @@ var count = (testWording.match(/d/g) || []).length;
 console.log(testWording);
 console.log(`There is ${count} "d" in the above sentence.`);
 
-const testWordingTwo = (str, chr) => str.split(chr).length - 1;
-console.log(testWordingTwo('Hello World. This is a test sentence. I will count the occurences of characters.', 'd'));
+// const testWordingTwo = (str, chr) => str.split(chr).length - 1;
+// console.log(testWordingTwo('Hello World. This is a test sentence. I will count the occurences of characters.', 'd'));
 
 console.log("--------Exercise-------");
 /*  draw this shapes in your console
