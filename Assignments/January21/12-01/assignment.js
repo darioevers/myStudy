@@ -102,15 +102,22 @@ Bounce: Forth shape
 Be creative and show us your Artistic side
 */
 
-console.log('T');
-console.log('T'.repeat(2));
-console.log('T'.repeat(3));
-console.log('T'.repeat(4));
+let firstShape = 'T';
+  for (let i = 1; i < 5; i++) {
+    console.log(`${firstShape.repeat(i)}`);
+  }
 
-console.log('*'.repeat(4));
-console.log('*'.repeat(3));
-console.log('*'.repeat(2));
-console.log('*');
+  let secondShape = '*';
+  for (let i = 4; i > 1; i--) {
+    console.log(`${secondShape.repeat(i)}`);
+  }
+
+  let thirdShape = '';
+  for (let i = 1; i <= 5; i++) {
+    thirdShape += i + '';
+    console.log(thirdShape);
+  }
+
 
 
 console.log("--------Exercise-------");
@@ -191,7 +198,7 @@ const passGenerator = () => {
     for (let i = 0; i < length; i++) {
         password += charSet.charAt(Math.floor(Math.random() * charSet.length));
     }
-    console.log(password)
+    console.log(`This is your randomly generated password: ${password}`)
 }
 
 passGenerator();
