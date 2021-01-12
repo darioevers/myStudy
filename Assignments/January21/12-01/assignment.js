@@ -7,6 +7,15 @@ console.log("--------Exercise-------");
 // isLEQZero(0) ➞ true
 // isLEQZero(-4) ➞ true
 // isLEQZero(10) ➞ false
+
+var randomNumber = Math.floor(Math.random() * 2);
+console.log(`${randomNumber} is our current random number.`);
+if (randomNumber <= 0){
+    console.log(true);
+} else{
+    console.log(false);
+}
+
 console.log("--------Exercise-------");
 
 //  Dog Years. Create a function which calculates how old a dog is in dog years. The function should accept one argument that is the dog's age in human years.
@@ -15,6 +24,11 @@ console.log("--------Exercise-------");
 // Example:
 
 // dogAge(4) ➞ "Your doggy is 28 years old in dog years!"
+
+var randomDogAge = Math.floor(Math.random() * 9);
+console.log(`${randomDogAge} is the Human-Age of this Dog.`);
+var calcDogAge = randomDogAge * 7;
+console.log(`${calcDogAge} is the calculated age in dog-years.`);
 
 console.log("--------Exercise-------");
 
@@ -26,6 +40,11 @@ console.log("--------Exercise-------");
 // calcLifetimeSupply(25, 2) ➞ "The snack company should provide you with 54,788 units, until you are a ripe old age of 100. Happy snacking!"
 
 // calcLifetimeSupply(40, 3) ➞ "The snack company should provide you with 65,745 units, until you are a ripe old age of 100. Happy snacking!"
+
+let dailySnacks = 2;
+let remainingLifeTime = 75 * 365;
+var totalSnacks = dailySnacks * remainingLifeTime;
+console.log(`The Snack Company must provide a total of ${totalSnacks} snacks over the duration of 75 years.`);
 
 console.log("--------Exercise-------");
 //  Number to Month Name
@@ -39,6 +58,8 @@ console.log("--------Exercise-------");
 // monthName(3) ➞ "March"
 // monthName(12) ➞ "December"
 // monthName(6) ➞ "June"
+
+let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
 console.log("--------Exercise-------");
 // Try to do it by yourself and don't look in yesterday solution. I trust you :)
