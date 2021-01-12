@@ -148,14 +148,30 @@ Bonus: create another function by doing some changes to the previous function in
 */
 
 const numbersCount = () => {
+    let str = '';
     for (let i = 0; i <= 5; i++) {
       // something
       for (let j = 1; j <= i; j++) {
           // something
       }
-        // something
+        console.log(str);
     }
   };
+
+  numbersCount();
+
+  const reverseNumbersCount = () => {
+    let str = '';
+    for (let i = 5; i <= 0; i--) {
+      // something
+      for (let j = 1; j <= i; j++) {
+          // something
+      }
+        console.log(str);
+    }
+  };
+
+  reverseNumbersCount();
 
 
 console.log("--------Exercise-------");
