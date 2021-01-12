@@ -138,6 +138,17 @@ Bonus: create another function by doing some changes to the previous function in
   1
 */
 
+const numbersCount = () => {
+    for (let i = 0; i <= 5; i++) {
+      // something
+      for (let j = 1; j <= i; j++) {
+          // something
+      }
+        // something
+    }
+  };
+
+
 console.log("--------Exercise-------");
 /* create a function should that checks if a store contains a specific product in it's inventory.
 for example:
@@ -154,7 +165,7 @@ const inventoryCheck = product => {
     if (availProducts){
         console.log('This product is available.');
     } else{
-        console.log('This product is currently not available.');
+        console.log('This product is currently not available. Please re-order.');
     }
   }
   inventoryCheck('Cheese')
@@ -170,4 +181,19 @@ console.log("--------Exercise-------");
 // passwordGen()  ➞ Y3mI9x7bvPY86T?oM§hIbgh!MLwA77N
 // passwordGen()  ➞ Oy$tkBGoo5fg§mO4AdV&Kh8XXZR4d7K
 // passwordGen()  ➞ v0ZwDrn@hfI€kOKWH§k6kqub6zfpuyP
+
+
+const passGenerator = () => {
+    let password = '';
+    var length = 30;
+    var charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,@#!?$';
+
+    for (let i = 0; i < length; i++) {
+        password += charSet.charAt(Math.floor(Math.random() * charSet.length));
+    }
+    console.log(password)
+}
+
+passGenerator();
+
 console.log("--------Exercise-------");
