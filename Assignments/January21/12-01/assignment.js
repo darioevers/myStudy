@@ -60,6 +60,8 @@ console.log("--------Exercise-------");
 // monthName(6) ➞ "June"
 
 let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+var randomMonth = Math.floor(Math.random() * 12) + 1;
+console.log(`Month number ${randomMonth} is called ${months[randomMonth-1]}.`)
 
 console.log("--------Exercise-------");
 // Try to do it by yourself and don't look in yesterday solution. I trust you :)
