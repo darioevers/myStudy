@@ -72,6 +72,11 @@ console.log("--------Exercise-------");
 
 // countOccurrences("this is a string", "i") ➞ 3
 
+let testWording = 'Hello World. This is a test sentence. I will count the occurences of characters.';
+var count = (testWording.match(/d/g) || []).length;
+console.log(testWording);
+console.log(`There is ${count} "d" in the above sentence.`);
+
 console.log("--------Exercise-------");
 /*  draw this shapes in your console
 First shape
@@ -93,6 +98,8 @@ Third shape
 Bounce: Forth shape
 Be creative and show us your Artistic side
 */
+
+
 
 console.log("--------Exercise-------");
 /*  Finish the following function so it outputs looks like this:
