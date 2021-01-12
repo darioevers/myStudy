@@ -103,12 +103,12 @@ Be creative and show us your Artistic side
 */
 
 let firstShape = 'T';
-  for (let i = 1; i < 5; i++) {
+  for (let i = 1; i <= 4; i++) {
     console.log(`${firstShape.repeat(i)}`);
   }
 
   let secondShape = '*';
-  for (let i = 4; i > 1; i--) {
+  for (let i = 4; i > 0; i--) {
     console.log(`${secondShape.repeat(i)}`);
   }
 
