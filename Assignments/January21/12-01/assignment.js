@@ -99,6 +99,15 @@ Bounce: Forth shape
 Be creative and show us your Artistic side
 */
 
+console.log('T');
+console.log('T'.repeat(2));
+console.log('T'.repeat(3));
+console.log('T'.repeat(4));
+
+console.log('*'.repeat(4));
+console.log('*'.repeat(3));
+console.log('*'.repeat(2));
+console.log('*');
 
 
 console.log("--------Exercise-------");
