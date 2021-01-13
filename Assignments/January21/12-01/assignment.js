@@ -162,16 +162,28 @@ const numbersCount = () => {
 
   const reverseNumbersCount = () => {
     let str = '';
-    for (let i = 5; i <= 0; i--) {
+    for (let i = 5; i >= 0; i--) {
       // something
-      for (let j = 1; j <= i; j++) {
-          // something
+      for (let j = 1; j <= i; j--) {
+          str += j;
       }
         console.log(str);
     }
   };
 
-  reverseNumbersCount();
+
+  const myLoop = () => {
+    for(let i=0; i < 10; i++) {
+        console.log(`this is table ${i}`)
+    for(let j=1; j <10; j++) {
+        console.log(`${i} * ${j} = ${i * j}`);
+    }
+  }
+}
+
+  myLoop();
+
+  // reverseNumbersCount();
 
 
 console.log("--------Exercise-------");
