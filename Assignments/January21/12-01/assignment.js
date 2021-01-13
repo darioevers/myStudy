@@ -114,7 +114,8 @@ let firstShape = 'T';
   }
 
   let secondShape = '*';
-  for (let i = 4; i > 0; i--) {
+  let i = 4;
+  for (; i > 0; i--) {
     console.log(`${secondShape.repeat(i)}`);
   }
 
