@@ -46,6 +46,12 @@ let remainingLifeTime = 75 * 365;
 var totalSnacks = dailySnacks * remainingLifeTime;
 console.log(`The Snack Company must provide a total of ${totalSnacks} snacks over the duration of 75 years.`);
 
+const calcLifetimeSupply = (firstPar, secondPar)=>{
+    let restult ='';
+    return restult;
+}
+calcLifetimeSupply(40, 3);
+
 console.log("--------Exercise-------");
 //  Number to Month Name
 // Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
@@ -172,7 +178,7 @@ const numbersCount = () => {
   };
 
 
-  const myLoop = () => {
+ /* const myLoop = () => {
     for(let i=0; i < 10; i++) {
         console.log(`this is table ${i}`)
     for(let j=1; j <10; j++) {
@@ -182,7 +188,7 @@ const numbersCount = () => {
 }
 
   myLoop();
-
+*/
   // reverseNumbersCount();
 
 
