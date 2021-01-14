@@ -47,3 +47,17 @@ console.log(1 < 100? 'Yes': 'No');
 console.log(1000 < 100? 'Yes': 'No');
 let resultStr = 1<55 ? 'cool' : 'not so cool';
 console.log(resultStr);
+console.log(typeof resultStr);
+
+// JS methods from Math
+console.log(Math.max(1, 2, 455, 6675, 2, -1)); //6675
+console.log(Math.min(1, 2, 455, 6675, 2, -1)); //-1
+let num1 = 33.5;
+console.log(Math.floor(num1));
+console.log(Math.ceil(num1));
+console.log(Math.floor(Math.random() * 8) + 1);
+
+let str3 = 'Hi i Like air.';
+let randomNum = Math.floor(Math.random() *str3.length);
+console.log(str3[randomNum]);
+console.log(str3.trim());
