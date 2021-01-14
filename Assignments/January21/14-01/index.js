@@ -41,3 +41,9 @@ let che2 = 1 < 12;
 
 
 // ternary operator
+console.log(true? 'Yes': 'No');
+console.log(1==1? 'Yes': 'No');
+console.log(1 < 100? 'Yes': 'No');
+console.log(1000 < 100? 'Yes': 'No');
+let resultStr = 1<55 ? 'cool' : 'not so cool';
+console.log(resultStr);
