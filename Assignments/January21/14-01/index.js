@@ -61,3 +61,4 @@ let str3 = 'Hi i Like air.';
 let randomNum = Math.floor(Math.random() *str3.length);
 console.log(str3[randomNum]);
 console.log(str3.trim());
+
