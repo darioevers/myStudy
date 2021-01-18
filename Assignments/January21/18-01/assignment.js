@@ -51,3 +51,34 @@ for (let i = 0; i <= 10; ) {
 }
 
 console.log("---------");
+
+let drawShape = "";
+for (let i = 0; i <= 4; i++) {
+  drawshape = "";
+  for (let j = 0; j <= i; j++) {
+    drawShape += "+";
+  }
+  console.log(drawShape);
+}
+
+console.log("---------");
+
+const names = ["Dario", "Norman", "Paula"];
+const jobs = ["Developer", "Athlete", "Lawyer"];
+for (let i = 0; i < names.length; i++) {
+  console.log(`Hi, I am ${names[i]}. I want to become a ${jobs[i]}.`);
+}
+
+console.log("---------");
+
+const images = ["🤪", "😬"];
+const likes = [22, 344, 666];
+for (let i = 0; i < images.length; i++) {
+  console.log(`
+    _________
+    | this img ${images[i]}
+    | got ${likes[i]} likes.
+    |________`);
+}
+
+console.log("---------");
