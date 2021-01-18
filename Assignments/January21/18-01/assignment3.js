@@ -13,7 +13,7 @@ switch (color) {
     console.log("This is the wrong color.");
 }
 
-let userKidsNumber = 12;
+let userKidsNumber = 5;
 switch (userKidsNumber) {
   case 1:
     console.log("You are a new parent with 1 child.");
