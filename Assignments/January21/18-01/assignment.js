@@ -20,7 +20,7 @@ for (let i = 0; i < 5; i++) {
 console.log("---------");
 
 for (let i = 0; i < 5; i++) {
-  if (i <= 1) {
+  if (i == 1) {
     console.log(`There is ${i} stars in the sky.`);
   } else {
     console.log(`There are ${i} stars in the sky.`);
@@ -28,3 +28,7 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log("---------");
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`1 * ${i} = ${1 * i}`);
+}
