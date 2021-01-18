@@ -33,10 +33,12 @@ for (let i = 0; i < namesHello.length; i++) {
 // Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. Examples:
 
 let myNumbers = [3, 5, 2, 4];
+let currentNumber = 0;
 for (let i = 0; i < myNumbers.length; i++) {
-  if (i % 2) {
-    console.log(i - 1);
+  currentNumber = myNumbers[i];
+  if (currentNumber % 2) {
+    console.log(currentNumber - 1);
   } else {
-    console.log(i + 1);
+    console.log(currentNumber + 1);
   }
 }
