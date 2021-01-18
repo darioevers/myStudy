@@ -13,8 +13,11 @@ switch (color) {
     console.log("This is the wrong color.");
 }
 
-let userKidsNumber = 5;
+let userKidsNumber = 0;
 switch (userKidsNumber) {
+  case 0:
+    console.log("You do not have kids.");
+    break;
   case 1:
     console.log("You are a new parent with 1 child.");
     break;
