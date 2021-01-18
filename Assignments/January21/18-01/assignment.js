@@ -40,5 +40,14 @@ for (let i = 1; i <= 10; i++) {
   for (let j = 1; j < 10; j++) {
     console.log(`${j} * ${i} = ${j * i}`);
   }
-  console.log(`1 * ${i} = ${1 * i}`);
+  console.log("-----");
 }
+
+console.log("---------");
+
+for (let i = 0; i <= 10; ) {
+  console.log(`${i} is even.`);
+  i += 2;
+}
+
+console.log("---------");
