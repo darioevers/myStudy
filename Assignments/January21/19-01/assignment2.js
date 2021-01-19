@@ -52,7 +52,7 @@ AEIOU:
 Vowels. Create a function that takes a string in its parameters and counts the number of vowels (i.e. in English, “a, e, i, o, u”) in the string.
 i.e. findVowels(“this is a string”) ➞ 4
 */
-
+/*
 const findVowels = (str) => {
   const vowels = ["a", "e", "i", "o", "u"];
   const findVowelsNumber = str.split(vowels).length - 1;
@@ -82,19 +82,54 @@ const findVowels4 = (str) => {
   //return vowelCount;
 };
 console.log(findVowels4("Hello, this is my vowelcheck."));
+*/
+
+const findVowels5 = (str) => {
+  const newArr = str.split("");
+  let count = 0;
+  for (let i = 0; i < newArr.length; i++) {
+    if (
+      newArr[i] == "a" ||
+      newArr[i] == "e" ||
+      newArr[i] == "i" ||
+      newArr[i] == "o" ||
+      newArr[i] == "u"
+    ) {
+      count++;
+    }
+  }
+  return count;
+};
+console.log(findVowels5("This is my vowelcheck."));
 
 /*
 No Duplicates!
- A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values. See the examples below. Example:
+ A set is a collection of unique items. 
+ A set can be formed from an array by removing all duplicate items. 
+ Create a program which transforms an array into a set of unique values. 
+ See the examples below. Example:
 [1, 4, 4, 7, 7, 7] ➞ [1, 4, 7]
 [1, 6, 6, 9, 9] ➞ [1, 6, 9]
 [2, 2, 2, 2, 2, 2] ➞ [2]
 [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
 */
 
+const uniqueNumbers = (arr) => {
+  const uniqueNumArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (!uniqueNumArr.includes(arr[i])) {
+      uniqueNumArr.push(arr[i]);
+    }
+  }
+  return uniqueNumArr;
+};
+
+console.log(uniqueNumbers([1, 4, 4, 7, 7, 7]));
+
 /*
 Dictionary. (take your time on this pls ) also as tip you can use .includes()
- Create a function that takes an initial string and an array of words, and returns a filtered array of the words that start with the same letters as the initial string.
+ Create a function that takes an initial string and an array of words, 
+ and returns a filtered array of the words that start with the same letters as the initial string.
 Notes:
 If none of the words match, return an empty array.
 Keep the filtered array in the same relative order as the original array of words.
@@ -103,6 +138,8 @@ dictionary(“bu”, [“button”, “breakfast”, “border”]) ➞ [“butt
 dictionary(“tri”, [“triplet”, “tries”, “trip”, “piano”, “tree”]) ➞ [“triplet”, “tries”, trip”]
 dictionary(“beau”, [“pastry”, “delicious”, “name”, “boring”]) ➞ []
 */
+
+// First Method
 
 const dictionary = (str, arr) => {
   let result = [];
@@ -119,7 +156,7 @@ const dictionary = (str, arr) => {
 console.log(dictionary("bo", ["cool", "bool", "nool", "dool"]));
 console.log(dictionary("bo", ["cool", "nool", "dool"]));
 
-// second way
+// Second Method
 
 const dictionary2 = (str, arr) => {
   let result = [];
