@@ -13,8 +13,17 @@ console.log(item.repeat(times));
 const repeater = (item, times) => {
   return Array(item) * times;
 };
-
 console.log(repeater("example", 3));
+
+// SOLUTION::::
+const rep = (itemNew, timesNew) => {
+  let result = [];
+  for (let i = 0; i < times; i++) {
+    result.push(itemNew);
+  }
+  return result;
+};
+console.log(rep("example", 5));
 
 /*
 The Greater Numbers.
