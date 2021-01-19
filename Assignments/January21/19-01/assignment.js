@@ -12,11 +12,13 @@ cityName[2] = "Dubai";
 console.log(cityName);
 
 // .push
+// add item at tje end
 cityName.push("Hi");
 cityName.push("Hi");
 console.log(cityName);
 
 // .pop
+// delete item at the end
 cityName.pop();
 cityName.pop();
 let removedItem = cityName.pop();
@@ -44,6 +46,6 @@ let n = 1;
 
 // .splice
 // remove an item by the index number
-let removedIt = names.splice(pos, 1);
+let removedIt = names.splice(pos, n);
 console.log(names);
 console.log(`${removedIt} got removed from the array.`);
