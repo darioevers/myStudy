@@ -49,3 +49,6 @@ let n = 1;
 let removedIt = names.splice(pos, n);
 console.log(names);
 console.log(`${removedIt} got removed from the array.`);
+for (let i = 0; i < names.length; i++) {
+  console.log(`${names[i]} is left.`);
+}
