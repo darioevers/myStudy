@@ -52,3 +52,19 @@ console.log(`${removedIt} got removed from the array.`);
 for (let i = 0; i < names.length; i++) {
   console.log(`${names[i]} is left.`);
 }
+
+// .split()
+// divide a string into an array
+let str = "Hi this is Dario.";
+let newArr = str.split(" ");
+let newArra = str.split(" ").length;
+console.log(
+  `There are ${newArra} spaces in the string. It got converted into an array.`
+);
+console.log(newArr);
+
+// .join
+// create a string from an array
+
+// .slice()
+// to make a shallow copy
