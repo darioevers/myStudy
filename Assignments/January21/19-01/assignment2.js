@@ -34,3 +34,15 @@ The function should return the elements of the array which are greater than the 
 
 let arr = [1, 2, 3, 4, 5];
 let myNum = 3;
+
+// SOLUTION:::
+const findGreatest = (arr, num) => {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > num) {
+      result.push(arr[i]);
+    }
+  }
+  return result.join(", ");
+};
+console.log(findGreatest([1, 2, 3, 4, 5, 6], 3));
