@@ -23,3 +23,13 @@ let removedItem = cityName.pop();
 
 console.log(cityName);
 console.log(`"${removedItem}" was the deleted item of the above array.`);
+
+// .unshift
+cityName.unshift("HH");
+console.log(cityName);
+
+// .shift
+cityName.shift();
+let removedEle = cityName.shift();
+console.log(cityName);
+console.log(`${removedEle} got removed.`);
