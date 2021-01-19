@@ -75,7 +75,7 @@ let arr2 = [5, 6, 7, 8];
 let arr3 = arr1.concat(arr2, [22, 23, 24]);
 console.log(arr3);
 
-const add = ["Berlin", "Paris"];
+const add = ["Berlin", "Paris", "Prague"];
 let fakeCopy = add;
 console.log(fakeCopy);
 fakeCopy.push("Dubai");
@@ -85,7 +85,7 @@ console.log(add);
 
 // .slice()
 // to make a shallow copy - its grabbing that array and making a copy. The main array will be unaffected by changes.
-let shallowCopy = add.slice();
+let shallowCopy = add.slice(1, 4);
 console.log(shallowCopy);
 shallowCopy.push("London");
 console.log(shallowCopy);
