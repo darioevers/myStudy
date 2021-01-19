@@ -84,4 +84,9 @@ fakeCopy.pop();
 console.log(add);
 
 // .slice()
-// to make a shallow copy
+// to make a shallow copy - its grabbing that array and making a copy. The main array will be unaffected by changes.
+let shallowCopy = add.slice();
+console.log(shallowCopy);
+shallowCopy.push("London");
+console.log(shallowCopy);
+console.log(add);
