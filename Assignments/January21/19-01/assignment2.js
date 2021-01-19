@@ -18,7 +18,7 @@ console.log(repeater("example", 3));
 // SOLUTION::::
 const rep = (itemNew, timesNew) => {
   let result = [];
-  for (let i = 0; i < times; i++) {
+  for (let i = 0; i < timesNew; i++) {
     result.push(itemNew);
   }
   return result;
