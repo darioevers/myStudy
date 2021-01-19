@@ -46,3 +46,24 @@ const findGreatest = (arr, num) => {
   return result.join(", ");
 };
 console.log(findGreatest([1, 2, 3, 4, 5, 6], 3));
+
+/* 
+AEIOU:
+Vowels. Create a function that takes a string in its parameters and counts the number of vowels (i.e. in English, “a, e, i, o, u”) in the string.
+i.e. findVowels(“this is a string”) ➞ 4
+*/
+
+const findVowels = (str) => {
+  let findVowelsNr = str.split(["a", "e", "i", "o", "u"]).length - 1;
+  return findVowelsNr;
+};
+console.log(findVowels("Hello, how many vowels are here?"));
+
+/*
+No Duplicates!
+ A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values. See the examples below. Example:
+[1, 4, 4, 7, 7, 7] ➞ [1, 4, 7]
+[1, 6, 6, 9, 9] ➞ [1, 6, 9]
+[2, 2, 2, 2, 2, 2] ➞ [2]
+[5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
+*/
