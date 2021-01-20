@@ -107,5 +107,5 @@ while (loopThree < 5) {
 }
 console.log(loopThree);
 console.log(
-  "___Above does not count, since we are not console.loggin in the loop.___"
+  "___Above does not count, since we are not console.logging in the loop.___"
 );
