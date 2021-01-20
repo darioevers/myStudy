@@ -43,3 +43,13 @@ console.log(boolTwo);
 // .lastIndexOf()
 // will start searching backwards
 // -1 means nothing has been found
+const arr4 = ["go", "we", "Home", "we", "I"];
+console.log(arr4.lastIndexOf("go"));
+
+let arr5 = ["here", "is", "a", "Assignment", "yea"];
+console.log(arr5.lastIndexOf("Dario"));
+
+// .fill
+// (what, from, to) => (0,2,3)
+
+// do
