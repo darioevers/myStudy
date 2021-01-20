@@ -78,3 +78,10 @@ do {
   console.log(counterTwo);
   counterTwo++;
 } while (counterTwo <= 10);
+
+let counterThree = 1;
+do {
+  console.log(counterThree);
+  arr5.push("Hi");
+  counterThree++;
+} while (counterThree <= 10);
