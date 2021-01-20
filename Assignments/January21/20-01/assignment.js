@@ -29,5 +29,16 @@ console.log(crazyArrRe);
 let newCrazyArr = ["A", "B", "C", "D"];
 console.log(newCrazyArr.reverse());
 
+console.log(typeof newCrazyArr);
+
 // .isArray()
 // true or false
+let bool = Array.isArray(newCrazyArr);
+console.log(bool);
+
+let boolTwo = Array.isArray({});
+console.log(boolTwo);
+
+// .lastIndexOf()
+// will start searching backwards
+// -1 means nothing has been found
