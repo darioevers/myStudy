@@ -30,6 +30,7 @@ let newCrazyArr = ["A", "B", "C", "D"];
 console.log(newCrazyArr.reverse());
 
 console.log(typeof newCrazyArr);
+// SIDENOTE: EVERYTHING INSIDE JS IS AN OBJECT. Things are being build inside the object.
 
 // .isArray()
 // true or false
