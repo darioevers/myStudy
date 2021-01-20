@@ -66,7 +66,7 @@ console.log(newArr7);
 
 console.log(arr7);
 
-// do / another sort of loop / will always at least print one time, even if the condition is false.
+// do loop / another sort of loop / will always at least print one time, even if the condition is false. / will check after acting the first time.
 let counter = 1;
 do {
   console.log(counter);
@@ -81,7 +81,31 @@ do {
 
 let counterThree = 1;
 do {
-  console.log(counterThree);
+  console.log(`The counter is now at ${counterThree}`);
   arr5.push("Hi");
   counterThree++;
 } while (counterThree <= 10);
+
+// while loop / another sort of loop / will check the condition and only act if the conditions if true. / will check before acting.
+let loopOne = 0;
+while (loopOne <= 5) {
+  console.log(loopOne);
+  loopOne++;
+}
+console.log("___Above start from 0, since we count after console.logging.___");
+
+let loopTwo = 0;
+while (loopTwo <= 5) {
+  loopTwo++;
+  console.log(loopTwo);
+}
+console.log("___Above start from 1, since we console.log after counting.___");
+
+let loopThree = 1;
+while (loopThree < 5) {
+  loopThree++;
+}
+console.log(loopThree);
+console.log(
+  "___Above does not count, since we are not console.loggin in the loop.___"
+);
