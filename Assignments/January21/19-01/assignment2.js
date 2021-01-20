@@ -102,6 +102,26 @@ const findVowels5 = (str) => {
 };
 console.log(findVowels5("This is my vowelcheck."));
 
+const findVowelsTwo = (str) => {
+  const newArrTwo = str.split("");
+  let count = 0;
+  let i = 0;
+  while (i < newArrTwo.length) {
+    if (
+      newArrTwo[i] == "a" ||
+      newArrTwo[i] == "e" ||
+      newArrTwo[i] == "i" ||
+      newArrTwo[i] == "o" ||
+      newArrTwo[i] == "u"
+    ) {
+      count++;
+    }
+    i++;
+  }
+  return count;
+};
+console.log(findVowelsTwo("This is a vowelcheck."));
+
 /*
 No Duplicates!
  A set is a collection of unique items. 
