@@ -19,3 +19,12 @@ console.log(newArr);
 let alpha = ["c", "b", "a"];
 let newSortedAlpha = alpha.sort();
 console.log(newSortedAlpha);
+
+// .reverse
+// to reverse an array aka first is last and last is first
+let crazyArr = ["3", "55", "2"];
+let crazyArrRe = crazyArr.reverse();
+console.log(crazyArrRe);
+
+// .isArray()
+// true or false
