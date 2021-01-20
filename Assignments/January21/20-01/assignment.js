@@ -51,7 +51,19 @@ console.log(arr4.indexOf("Home")); // 2
 let arr5 = ["here", "is", "a", "Assignment", "yea"];
 console.log(arr5.lastIndexOf("Dario")); // -1
 
-// .fill
+let str = "String";
+console.log(str.indexOf("t")); // possible for strings too, but usually not to be used.
+
+// .fill / overwriting content of an array
 // (what, from, to) => (0,2,3)
+let arr6 = [22, 32, 5, 7, 8, 4, 4, 1];
+let newArr6 = arr6.fill(7, 1, 4);
+console.log(newArr6);
+
+let arr7 = ["dario", "oirad", "dci"];
+let newArr7 = arr7.fill("OK", 1, 3);
+console.log(newArr7);
+
+console.log(arr7);
 
 // do
