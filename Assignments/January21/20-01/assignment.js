@@ -66,4 +66,15 @@ console.log(newArr7);
 
 console.log(arr7);
 
-// do
+// do / another sort of loop / will always at least print one time, even if the condition is false.
+let counter = 1;
+do {
+  console.log(counter);
+  counter++;
+} while (counter <= 10);
+
+let counterTwo = 450;
+do {
+  console.log(counterTwo);
+  counterTwo++;
+} while (counterTwo <= 10);
