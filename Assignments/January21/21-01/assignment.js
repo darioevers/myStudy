@@ -39,7 +39,15 @@ function halloUser() {
 
 // .map()
 //for (let i=0;i<Array.length;i++) <- .map is a shorter version of it.
-const names = ["Dario", "Elon Musk"];
-const newArr = names.map((name, i) =>
-  console.log(`The name "${name}" has index nr. ${i}.`)
+const names = ["Dario", "Elon Musk", ".map"];
+const cities = ["Hamburg", "Los Angeles"];
+const newArr = names.map((name, i) => {
+  if ((name = ".map")) {
+    console.log("Blabla");
+  }
+  console.log(`The name "${name}" has index nr. ${i}.`);
+});
+
+const newCity = cities.map((city, i) =>
+  console.log(`The city "${city}" has index nr. ${i}.`)
 );
