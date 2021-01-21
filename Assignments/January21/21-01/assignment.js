@@ -28,6 +28,7 @@ function halloUser() {
 
 // call stack
 
+// an infinite call stack below. We should never do this.
 // function one() {
 //   two();
 // }
