@@ -36,3 +36,10 @@ function halloUser() {
 //   one();
 // }
 // one();
+
+// .map()
+//for (let i=0;i<Array.length;i++) <- .map is a shorter version of it.
+const names = ["Dario", "Elon Musk"];
+const newArr = names.map((name, i) =>
+  console.log(`The name "${name}" has index nr. ${i}.`)
+);
