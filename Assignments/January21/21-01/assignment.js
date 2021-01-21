@@ -85,3 +85,30 @@ for (let i = 1; i <= 10; i++) {
     break;
   }
 }
+
+// continue;
+// skipping an iteration:
+
+for (let i = 10; i <= 15; i++) {
+  if (i == 13) {
+    continue; //i++
+  } else {
+    console.log(i);
+  }
+}
+
+const arr1 = [2, 2, 2, 3, 3, 44, 55, 66];
+const cleanUp = (arr) => {
+  let result = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (result.includes(arr1[i])) {
+      continue;
+    } else {
+      result.push(arr1[i]);
+      {
+      }
+    }
+  }
+  return result;
+};
+console.log(cleanUp(arr1));
