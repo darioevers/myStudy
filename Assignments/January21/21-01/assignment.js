@@ -25,3 +25,13 @@ function halloUser() {
   let userName = "dario";
   return `Hello, welcome back ${userName}!`;
 }
+
+// call stack
+
+// function one() {
+//   two();
+// }
+// function two() {
+//   one();
+// }
+// one();
