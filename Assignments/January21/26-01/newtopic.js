@@ -71,13 +71,10 @@ console.log("__ASSIGNMENT 2__");
 // Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. Examples:
 // [3, 5, 2, 4] ➞ expected output: [4, 6, 1, 3]
 // [6, 9, 10, 20] ➞ expected output: [5, 10, 9, 19]
-const oddsEvens2 = (array) => {
-  let currentnumber = 0;
+const oddOrEven = (...args) => {
+  return args.map((item) => (item % 2 == 0 ? ++item : --item));
 };
-
-const oddsEvens = [1, 2, 3, 4, 5, 6, 7, 8];
-const oddsEvensCalc = oddsEvens.map((item) => parseInt(item));
-//console.log(oddsEvensCalc([1, 2, 3, 4]));
+console.log(oddOrEven(2, 4, 5, 6, 7));
 
 // ___________________________________________________________ASSIGNMENT 3___________________________________________________________
 console.log("__ASSIGNMENT 3__");
