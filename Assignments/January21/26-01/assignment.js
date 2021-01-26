@@ -24,6 +24,8 @@ console.log(exponent2(3));
 const exponent3 = (num, exp = 2) => {
   let result = 1;
   for (let i = 0; i < exp; i++) {
+    // 1=1*3
+    // 3*3
     result *= num;
   }
   return result;
@@ -37,6 +39,11 @@ console.log(exponent3(3));
 //console.log(howManyArgs()) ---> 0
 //console.log(howManyArgs(1, false, "hello")) ---> 3
 //console.log(howManyArgs("better")) ---> 1
+
+const howManyArgs = (...args) => args.length;
+console.log(howManyArgs());
+console.log(howManyArgs(1, false, "hello"));
+console.log(howManyArgs("better"));
 
 // ___________________________________________________________ASSIGNMENT 4___________________________________________________________:
 //Write a function which accepts any amount of numbers and return the sum of their addition
