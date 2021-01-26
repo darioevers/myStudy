@@ -62,6 +62,17 @@ console.log(sum([1]));
 console.log(sum([1, 15]));
 console.log(sum([25, 25, 20]));
 
+const sumTwo = (...args) => {
+  let result = 0;
+  for (let i = 0; i < args.length; i++) {
+    result += args[i];
+  }
+  return result;
+};
+console.log(sumTwo(1));
+console.log(sumTwo(1, 15));
+console.log(sumTwo(25, 25, 20));
+
 // ___________________________________________________________ASSIGNMENT 5___________________________________________________________:
 //Bonus: Write a function which accepts any amount of numbers and returns the average.
 //e.g
