@@ -97,11 +97,11 @@ for (let i = 10; i <= 15; i++) {
   }
 }
 
-const arr1 = [2, 2, 2, 3, 3, 44, 55, 66];
+const arr1 = [0, 0, 0.77, 0, 0];
 const cleanUp = (arr) => {
   let result = [];
   for (let i = 0; i < arr1.length; i++) {
-    if (result.includes(arr1[i])) {
+    if (!result.includes(arr1[i])) {
       continue;
     } else {
       result.push(arr1[i]);
