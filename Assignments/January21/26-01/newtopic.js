@@ -37,22 +37,30 @@ console.log(biggerThanFive);
 // ___________________________________________________________ASSIGNMENT 1___________________________________________________________:
 console.log("__ASSIGNMENT 1__");
 // HACKER SPEAK
-
-const hackerSpeak = (str) => {
-  let strArr = Array.of(str);
-  const replacer = strArr.filter((letter) =>
-    letter
-      .replace(/a/g, "4")
-      .replace(/e/g, "3")
-      .replace(/i/g, "1")
-      .replace(/o/g, "0")
-      .replace(/s/g, "5")
-      .replace(/t/g, "7")
-  );
-  return replacer;
+const hackSpeak = (str) => {
+  return str
+    .toLowerCase()
+    .split("")
+    .map((chr) => {
+      switch (chr) {
+        case "a":
+          return "4";
+        case "e":
+          return "3";
+        case "i":
+          return "1";
+        case "o":
+          return "0";
+        case "s":
+          return "5";
+        default:
+          return chr;
+      }
+    })
+    .join("");
 };
 console.log(
-  hackerSpeak(
+  hackSpeak(
     "Hacker Language means replacing certain characters with similar looking numbers."
   )
 );
@@ -63,6 +71,13 @@ console.log("__ASSIGNMENT 2__");
 // Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. Examples:
 // [3, 5, 2, 4] ➞ expected output: [4, 6, 1, 3]
 // [6, 9, 10, 20] ➞ expected output: [5, 10, 9, 19]
+const oddsEvens2 = (array) => {
+  let currentnumber = 0;
+};
+
+const oddsEvens = [1, 2, 3, 4, 5, 6, 7, 8];
+const oddsEvensCalc = oddsEvens.map((item) => parseInt(item));
+//console.log(oddsEvensCalc([1, 2, 3, 4]));
 
 // ___________________________________________________________ASSIGNMENT 3___________________________________________________________
 console.log("__ASSIGNMENT 3__");
