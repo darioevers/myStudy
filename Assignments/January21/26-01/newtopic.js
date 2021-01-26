@@ -88,3 +88,13 @@ const howManyStr = (str, occ) => {
 console.log(howManyStr("Pizza is nice.", "p"));
 console.log(howManyStr("Pizza is nice.", "i"));
 console.log(howManyStr("Pizza is nice.", "z"));
+
+const howManyStrTwo = (str, chr) => {
+  return str
+    .toLowerCase()
+    .split("")
+    .filter((letter) => letter == chr).length;
+};
+console.log(howManyStrTwo("Pizza is nice.", "p"));
+console.log(howManyStrTwo("Pizza is nice.", "i"));
+console.log(howManyStrTwo("Pizza is nice.", "z"));
