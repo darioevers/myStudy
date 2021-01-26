@@ -28,3 +28,6 @@ console.log(filArr);
 
 //.find
 // getting a the first item that aline with your condition: 'Array.prototype.filter(<function>)
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
+const biggerThanFive = myNumbers.find((num) => num > 5);
+console.log(biggerThanFive);
