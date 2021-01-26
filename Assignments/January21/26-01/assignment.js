@@ -4,6 +4,19 @@
 // console.log(twofer("Fran")) ---> "Two for me and one for Fran"
 // console.log(twofer()) ---> "Two for me and one for you"
 
+const twofer = (str) => {
+  let result = "";
+  var n = str.includes("", 0);
+  if (n) {
+    console.log(`Two for me and one for ${str}.`);
+  } else {
+    console.log(`Two for me and one for you.`);
+  }
+  return result;
+};
+twofer("Dario");
+twofer();
+
 // ___________________________________________________________ASSIGNMENT 2___________________________________________________________:
 // Write a function  that it still calculates the power of a number even if the exp argument is not passed to it. The default exp should be set to 2.
 // e.g
