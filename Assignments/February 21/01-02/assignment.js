@@ -49,3 +49,9 @@ const add = (() => {
 console.log(add());
 console.log(add());
 console.log(add());
+
+// STAF
+// Self-invoking anonymous function
+
+// IIFE
+// Immediately-invoked Function Expression
