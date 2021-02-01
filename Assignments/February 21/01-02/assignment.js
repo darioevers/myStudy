@@ -39,4 +39,13 @@ console.log(fun());
 
 // invoking == calling
 // functions that return other functions
-const add = () => {};
+const add = (() => {
+  let counter = 0;
+  return () => {
+    counter++;
+    return counter;
+  };
+})();
+console.log(add());
+console.log(add());
+console.log(add());
