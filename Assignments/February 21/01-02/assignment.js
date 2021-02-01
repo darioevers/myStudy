@@ -27,3 +27,16 @@ const outerFunction = (x, y) => {
   return innerFunction(x) + innerFunction(y);
 };
 console.log(outerFunction(3, 4));
+
+// Closure
+let number = 10;
+function fun() {
+  return number + number;
+}
+console.log(fun());
+number = 33;
+console.log(fun());
+
+// invoking == calling
+// functions that return other functions
+const add = () => {};
