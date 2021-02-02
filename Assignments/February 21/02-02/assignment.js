@@ -106,3 +106,14 @@ Object.defineProperties(otherNewPersonObject, {
   },
 });
 console.log(otherNewPersonObject.p1);
+
+// Object yourPersonObject
+// Create an object named person2. Loop through the object and print both the property and value of the object.
+const person2 = {
+  name: "Dario",
+  age: 25,
+  height: 180,
+};
+for (let properties in person2) {
+  console.log(`${properties} : ${person2[properties]}`);
+}
