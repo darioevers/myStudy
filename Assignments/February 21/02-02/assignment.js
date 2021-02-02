@@ -31,15 +31,23 @@ console.log(typeof console);
 // Accessing properties
 // 1- with (brackets notation)
 console.log(objUser["activity"][2]);
+
 // 2- with (dot notation)
 console.log(objUser.activity[2]);
 console.log(objUser.name);
+
 // not pre-filled object
 const obj2 = {};
 obj2.name = "Dario";
 console.log(obj2.name);
+
 //
 const save = new Object();
 console.log(save);
 const arr = new Array();
 console.log(arr);
+
+// output of an object in a loop
+for (let properties in objUser) {
+  console.log(`objUser.${properties} : ${objUser[properties]}`);
+}
