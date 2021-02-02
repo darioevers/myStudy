@@ -66,3 +66,11 @@ const person = {
   },
 };
 person.print();
+
+// Object keys
+console.log(Object.keys(person));
+
+// Object values
+console.log(Object.values(person));
+
+// delete
