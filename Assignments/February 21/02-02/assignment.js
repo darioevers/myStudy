@@ -117,3 +117,34 @@ const person2 = {
 for (let properties in person2) {
   console.log(`${properties} : ${person2[properties]}`);
 }
+
+// Object yourPersonObject
+//  Create a function that returns an array of the properties of a javascript object.
+const person3 = {
+  name: "Dario",
+  age: 25,
+  height: 180,
+  print: function () {
+    console.log(Object.keys(person3));
+    console.log(Object.values(person3));
+  },
+};
+person3.print();
+
+//console.log(Object.keys(person3));
+//console.log(Object.values(person3));
+
+//Create a method that prints the following:
+//"Zain Oil a student in class 48"
+
+const student = {
+  firstName: "Zain",
+  lastName: "Oil",
+  class: 48,
+  print: function () {
+    console.log(
+      `${this.firstName} ${this.lastName} a student in class ${this.class}`
+    );
+  },
+};
+student.print();
