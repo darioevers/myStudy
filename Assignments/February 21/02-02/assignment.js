@@ -150,11 +150,11 @@ const getObjectValues = {
   choice1: "tea",
   choice2: "coffee",
   choice3: "milk",
-  print: function () {
-    console.log(Object.values(getObjectValues));
-  },
 };
-getObjectValues.print();
+const objVal = (obj) => {
+  return Object.values(obj);
+};
+console.log(objVal(getObjectValues));
 
 // List Properties. Create a function that returns an array of properties of a javascript object.
 const student2 = {
@@ -166,3 +166,5 @@ const student2 = {
   },
 };
 student2.print();
+
+// THIS. <- Refers to current working object
