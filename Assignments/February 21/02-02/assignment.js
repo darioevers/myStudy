@@ -39,3 +39,7 @@ const obj2 = {};
 obj2.name = "Dario";
 console.log(obj2.name);
 //
+const save = new Object();
+console.log(save);
+const arr = new Array();
+console.log(arr);
