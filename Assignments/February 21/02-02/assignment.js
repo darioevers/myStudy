@@ -31,4 +31,11 @@ console.log(typeof console);
 // Accessing properties
 // 1- with (brackets notation)
 console.log(objUser["activity"][2]);
+// 2- with (dot notation)
 console.log(objUser.activity[2]);
+console.log(objUser.name);
+// not pre-filled object
+const obj2 = {};
+obj2.name = "Dario";
+console.log(obj2.name);
+//
