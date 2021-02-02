@@ -74,3 +74,19 @@ console.log(Object.keys(person));
 console.log(Object.values(person));
 
 // delete
+
+// Object.assign
+const obj3 = { kids: 2, cars: 400 };
+const obj4 = { color: ["red", "gray", "black"], pets: "fish" };
+const totalObjects = Object.assign(obj3, obj4);
+console.log(totalObjects);
+
+// Object.defineProperty()
+const newPersonObject = {};
+Object.defineProperty(newPersonObject, "bike", {
+  value: "Ducati",
+  writable: true,
+});
+console.log(newPersonObject.bike);
+
+// Object.defineProperties()
