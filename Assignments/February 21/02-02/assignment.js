@@ -144,3 +144,25 @@ const student = {
   },
 };
 student.print();
+
+// Get values. Create a function that returns an array of all values of an object properties
+const getObjectValues = {
+  choice1: "tea",
+  choice2: "coffee",
+  choice3: "milk",
+  print: function () {
+    console.log(Object.values(getObjectValues));
+  },
+};
+getObjectValues.print();
+
+// List Properties. Create a function that returns an array of properties of a javascript object.
+const student2 = {
+  name: "Mike",
+  class: "4A",
+  course: "English",
+  print: function () {
+    console.log(Object.keys(student2));
+  },
+};
+student2.print();
