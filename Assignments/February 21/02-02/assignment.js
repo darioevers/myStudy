@@ -90,3 +90,19 @@ Object.defineProperty(newPersonObject, "bike", {
 console.log(newPersonObject.bike);
 
 // Object.defineProperties()
+const otherNewPersonObject = {};
+Object.defineProperties(otherNewPersonObject, {
+  p1: {
+    value: "Google",
+    writable: true,
+  },
+  p2: {
+    value: "Facebook",
+    writable: false,
+  },
+  p3: {
+    value: "100",
+    writable: true,
+  },
+});
+console.log(otherNewPersonObject.p1);
