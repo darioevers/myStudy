@@ -27,3 +27,8 @@ const objUser = {
 console.log(objUser.name);
 console.log(objUser.activity[2]);
 console.log(typeof console);
+
+// Accessing properties
+// 1- with (brackets notation)
+console.log(objUser["activity"][2]);
+console.log(objUser.activity[2]);
