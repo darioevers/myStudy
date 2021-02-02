@@ -51,3 +51,18 @@ console.log(arr);
 for (let properties in objUser) {
   console.log(`objUser.${properties} : ${objUser[properties]}`);
 }
+
+// Tell me more about you
+const person = {
+  name: "Dario",
+  age: 25,
+  birthYear: 1995,
+  gender: "male",
+  height: 180,
+  print: function () {
+    console.log(
+      `I am ${this.name}, my age is ${this.age}. I was born in ${this.birthYear} and I am a ${person.height}cm tall ${person.gender}.`
+    );
+  },
+};
+person.print();
