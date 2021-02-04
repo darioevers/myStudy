@@ -19,7 +19,7 @@ function zodiac(birthday) {
   let birthdayArr = birthday.split("-");
   switch (birthdayArr) {
     case (birthdayArr[1] == "01" && birthdayArr[0] >= 20) ||
-      (birthdayArr[1] == "February" && birthdayArr[0] <= 18):
+      (birthdayArr[1] == "02" && birthdayArr[0] <= 18):
       sign = "Aquarius";
       break;
     case (birthdayArr[1] == "02" && birthdayArr[0] >= 19) ||
