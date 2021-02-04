@@ -125,22 +125,74 @@ const zodiacDates = {
   },
 };
 
-console.log("__________ASSIGNMENT__________");
+console.log("__________ASSIGNMENT222__________");
 
 const zodiacSecond = (birthday) => {
   sign = "";
   let birthdayArr = birthday.split("-");
   let day = parseInt(birthdayArr[0]);
   let month = parseInt(birthdayArr[1]);
-  return Object.hasOwnProperty();
-  for (let prop in Object) {
-    date >= Object.id.start && date <= Object.id.end
-      ? Object.id
-      : `Please enter a valid date!`;
+  for (let prop in zodiacDates) {
+    month == Object.keys(zodiacDates).start[1];
   }
 };
 console.log(zodiacSecond("14-02-2002"));
 
+// NEXT
+/*
+const zodiacDates2 = [
+  {
+    Aries: [21][3],
+  },
+  {
+    Taurus: [20][4],
+  },
+  {
+    Gemini: [21][5],
+  },
+  {
+    Cancer: [21][6],
+  },
+  {
+    Leo: [23][7],
+  },
+  {
+    Virgo: [23][8],
+  },
+  {
+    Libra: [23][9],
+  },
+  {
+    Scorpio: [23][10],
+  },
+  {
+    Sagittarius: [23][11],
+  },
+  {
+    Capricorn: [22][12],
+  },
+  {
+    Aquarius: [20][1],
+  },
+  {
+    Pisces: [19][2],
+  },
+];
+const zodiacThird = (birthday) => {
+  sign = "";
+  let birthdayArr = birthday.split("-");
+  let day = parseInt(birthdayArr[0]);
+  let month = parseInt(birthdayArr[1]);
+  for (let prop in zodiacDates2) {
+    day >= zodiacDates2[prop[0]] && month <= zzodiacDates2[prop[1]]
+      ? zodiacDates2.keys
+      : `Please enter a valid date!`;
+  }
+};
+console.log(zodiacThird("14-02-2002"));
+
+
+*/
 // NEXT
 
 // Aries
