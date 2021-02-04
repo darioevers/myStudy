@@ -140,6 +140,9 @@ console.log(zodiacSecond("14-02-2002"));
 
 // NEXT
 /*
+
+hadis hint: { signName: "Capricorn", from: "0101" },
+
 const zodiacDates2 = [
   {
     Aries: [21][3],
