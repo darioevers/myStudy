@@ -167,4 +167,8 @@ const student2 = {
 };
 student2.print();
 
+//
+
+const object;
+
 // THIS. <- Refers to current working object
