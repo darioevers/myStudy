@@ -30,6 +30,15 @@ console.log("__________ASSIGNMENT 2__________");
 // }
 // Expected output:
 // ["name", "class", "course"]
+function returnProperties() {
+  let student = {
+    name: "Mike",
+    class: "4A",
+    course: "English",
+  };
+  console.log(Object.keys(student));
+}
+returnProperties();
 
 // ___________________________________________________________ASSIGNMENT 3___________________________________________________________:
 console.log("__________ASSIGNMENT 3__________");
