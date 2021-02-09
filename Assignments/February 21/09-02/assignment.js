@@ -10,6 +10,9 @@ console.log("__________ASSIGNMENT 1__________");
 // })
 // Expected output:
 // [["A", 1], ["B", 2], ["C", 3]]
+
+// ___________________________________________________________ASSIGNMENT 2___________________________________________________________:
+console.log("__________ASSIGNMENT 2__________");
 // objectToArray({
 //   cats: 1,
 //   dogs: 2,
@@ -17,10 +20,9 @@ console.log("__________ASSIGNMENT 1__________");
 // })
 // Expected output:
 // [["cats", 1], ["dogs", 2], ["turtles", 4]]
-// 2:22
 
-// ___________________________________________________________ASSIGNMENT 2___________________________________________________________:
-console.log("__________ASSIGNMENT 2__________");
+// ___________________________________________________________ASSIGNMENT 3___________________________________________________________:
+console.log("__________ASSIGNMENT 3__________");
 // List Properties. Create a function that returns an array of properties of a javascript object.
 // Example
 // let student = {
@@ -40,8 +42,8 @@ function returnProperties() {
 }
 returnProperties();
 
-// ___________________________________________________________ASSIGNMENT 3___________________________________________________________:
-console.log("__________ASSIGNMENT 3__________");
+// ___________________________________________________________ASSIGNMENT 4___________________________________________________________:
+console.log("__________ASSIGNMENT 4__________");
 // Merge.
 // Create a function that takes two objects as its parameters and merges them together into a new object.
 // Example
