@@ -39,8 +39,10 @@ let person = {
   job: "teacher",
 };
 function reverse() {
-    let revArr = 
+  let revArr = Array.of(person).reverse();
+  console.log(revArr);
 }
+reverse();
 
 // ___________________________________________________________ASSIGNMENT 3___________________________________________________________:
 console.log("__________ASSIGNMENT 3__________");
