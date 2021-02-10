@@ -38,11 +38,15 @@ let person = {
   name: "John",
   job: "teacher",
 };
-function reverse() {
-  let revArr = Array.of(person).reverse();
-  console.log(revArr);
-}
-reverse();
+
+const reverseObject = (obj) => {
+  let newObj = {};
+  for (let prop in obj) {
+    newObj[obj[prop]] = prop;
+  }
+  return newObj;
+};
+console.log(reverseObject(person));
 
 // ___________________________________________________________ASSIGNMENT 3___________________________________________________________:
 console.log("__________ASSIGNMENT 3__________");
@@ -51,3 +55,9 @@ console.log("__________ASSIGNMENT 3__________");
 // Examples:
 // { a: 1, b: 2, c: 3 } ➞ [[“a”, “b”, “c”], [1, 2, 3]]
 // {key: true} ➞ [[“key”], [true]]
+const twoArrFromAnObj = (obj) => {
+  const keysArr = Object.keys(obj);
+  const ValsArr = Object.values(obj);
+  return [keysArr, ValsArr];
+};
+console.log(twoArrFromAnObj({ a: 1, b: 2, c: 3 }));
