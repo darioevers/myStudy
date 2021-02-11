@@ -5,10 +5,28 @@ class Tv {
     this.channel = _channel;
     this.volume = _volume;
   }
-  incVolume() {}
-  decVolume() {}
-  rest() {
+  incVolume() {
+    if (this.volume <= 100) {
+      this.volume++;
+      console.log(`${this.volume}`);
+    } else {
+      console.log("The volume is at max.");
+    }
+  }
+  decVolume() {
+    if (this.volume >= 0) {
+      this.volume--;
+      console.log(`${this.volume}`);
+    } else {
+      console.log("The volume is at min.");
+    }
+  }
+  reset() {
     // volume and channel
+    (this.volume = 10),
+      (this.channel = 1),
+      console.log(`${this.volume} and ${this.channel}`);
   }
 }
-// extends && super
+
+//Tv.decVolume();
