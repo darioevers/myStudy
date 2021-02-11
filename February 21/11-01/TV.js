@@ -22,11 +22,13 @@ class Tv {
     }
   }
   reset() {
-    // volume and channel
-    (this.volume = 10),
-      (this.channel = 1),
-      console.log(`${this.volume} and ${this.channel}`);
+    this.volume = 10;
+    this.channel = 1;
+    console.log(`${this.volume} and ${this.channel}`);
   }
 }
 
-//Tv.decVolume();
+const samsung = new Tv("Samsung");
+console.log(samsung);
+samsung.incVolume();
+samsung.decVolume();
