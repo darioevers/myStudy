@@ -36,4 +36,14 @@ console.log(q.getPerimeter());
 function binary(num) {
   return num.toString(2);
 }
-console.log(binary(13));
+console.log(binary(10));
+
+// JS Test Topics
+// 9 questions in total
+// object
+// arrays
+// arrays in arrays
+// loops
+// array of objects
+// classes
+// logical thinking
