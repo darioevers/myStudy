@@ -1,3 +1,7 @@
+body {
+  margin-top: 10%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +10,7 @@
 table {
   width: 30vw;
   height: 30vw;
-  margin: 5rem auto;
+  margin: auto;
   background-color: grey;
 }
 td {
