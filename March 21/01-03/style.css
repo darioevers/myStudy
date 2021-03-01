@@ -1,0 +1,6 @@
+:root {
+  --my-color: orange;
+  --my-font-size: 3rem;
+}
+
+/* to call it: var(my-color) */
