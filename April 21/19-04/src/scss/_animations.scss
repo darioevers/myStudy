@@ -1,0 +1,26 @@
+.box {
+  @include fade-in(6s);
+  @include size-for-divs;
+  background-color: greenyellow;
+}
+
+@keyframes fade-in {
+  0% {
+    @include hidden;
+    transform: scale(0) rotate(0deg);
+  }
+  33% {
+    @include show;
+    transform: scale(1) rotate(60deg);
+    background-color: greenyellow;
+  }
+  66% {
+    @include hidden;
+    transform: scale(0) rotate(0deg);
+  }
+  100% {
+    @include show;
+    transform: scale(1) rotate(-60deg);
+    background-color: red;
+  }
+}

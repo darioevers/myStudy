@@ -1,0 +1,7 @@
+@import "./mixins";
+
+.header {
+  @include center;
+  @include size-for-divs;
+  background-color: orange;
+}
