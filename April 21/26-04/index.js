@@ -20,3 +20,7 @@ const addToList = () => {
     document.querySelector("#userData").placeholder = "Enter text first please";
   }
 };
+
+const removeFromList = () => {
+  document.body.removeChild(newLi);
+};
