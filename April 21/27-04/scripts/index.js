@@ -28,11 +28,30 @@ const colorGen = () => {
     result += HexNum[Math.floor(Math.random() * 16)];
   }
   // one more thing
+  result += "50";
   return result;
 };
 
 // color generator in other way 😉
-const colorGenOtherWay = () => {};
+const colorGenOtherWay = () => {
+  let r = Math.floor(Math.random() * 255);
+  let g = Math.floor(Math.random() * 255);
+  let b = Math.floor(Math.random() * 255);
+  let a = Math.random();
+  return `rgba(${r},${g},${b},${a})`;
+};
+
+// food-category
+const food = document.querySelectorAll(".food-category");
+food.forEach(({ style: i }) => {
+  i.backgroundColor = colorGen();
+  i.width = "30%";
+  i.heigth = "10rem";
+  i.textAlign = "left";
+  i.padding = "2rem 0rem 2rem 3rem";
+  i.borderRadius = "5px";
+  i.listStyleType = "none";
+});
 
 // Select all even allergy-info items. Give the even items a different background color.
 
