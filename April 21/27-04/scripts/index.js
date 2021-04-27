@@ -54,7 +54,24 @@ food.forEach(({ style: i }) => {
 });
 
 // Select all even allergy-info items. Give the even items a different background color.
+const allergy = document.querySelectorAll(".allergy-info");
+allergy.forEach(({ style }, i) => {
+  if (i % 2 == 0) {
+    style.backgroundColor = colorGenOtherWay();
+  }
+});
 
 // Make the allergy-warning appear as a column in the center of the page.
+const allergySec = document.querySelector(".allergy-warning").style;
+allergySec.display = "flex";
+allergySec.flexFlow = "column";
+allergySec.justifyContent = "center";
+allergySec.alignItems = "center";
 
 //The descriptions in the footer should also be styled, e.g. a rounded border with a background color. They should appear in a column for mobile and in a row for desktop.
+const footer = document.querySelector(".footer").style;
+footer.style.display = "flex";
+footer.style.flexFlow = "row wrap";
+footer.style.justifyContent = "center";
+const foodItems = document.querySelector(".food-desc");
+foodItems.forEach(({ style: object }) => {});
