@@ -69,9 +69,30 @@ allergySec.justifyContent = "center";
 allergySec.alignItems = "center";
 
 //The descriptions in the footer should also be styled, e.g. a rounded border with a background color. They should appear in a column for mobile and in a row for desktop.
-const footer = document.querySelector(".footer").style;
+const footer = document.querySelector(".footer");
 footer.style.display = "flex";
 footer.style.flexFlow = "row wrap";
 footer.style.justifyContent = "center";
-const foodItems = document.querySelector(".food-desc");
-foodItems.forEach(({ style: object }) => {});
+
+const media = window.matchMedia("(max-width: 400px)");
+
+const foodItems = document.querySelectorAll(".food-desc");
+foodItems.forEach(({ style }) => {
+  style.border = "5px solid orange";
+  style.borderRadius = "100%";
+  style.heigth = "7rem";
+  style.width = "7rem";
+  style.display = "flex";
+  style.justifyContent = "center";
+  style.alignItems = "center";
+  style.margin = "1rem";
+  if (media.matches) {
+    //   mobile
+    style.flexFlow = "column";
+    style.backgroundColor = "gray";
+  } else {
+    //   desktop
+    style.flexFlow = "row";
+    style.flexFlow = "orange";
+  }
+});
