@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>More on Events</title>
+  </head>
+  <body>
+    <h1>Hi This is an Event place</h1>
+    <button onclick="stop()">STOP Listening</button>
+    <button onclick="start()">START Listening</button>
+    <form>
+      <input type="text" name="userName" id="userData" />
+      <button class="changeColor">Change Color</button>
+      <hr />
+      <input type="submit" value="Send" />
+      <input type="reset" value="Clear" />
+    </form>
+    <div class="done">
+      <span class="close" onclick="hide()">✗</span>
+      <div>Done ✅</div>
+      <span class="msg"></span>
+    </div>
+
+    <div class="result"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

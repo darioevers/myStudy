@@ -1,0 +1,20 @@
+.done {
+  position: relative;
+  /* border: 2px dashed red; */
+  display: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: lime;
+  width: 30%;
+}
+.close {
+  position: absolute;
+  right: 3%;
+  transition: 0.5s;
+  cursor: pointer;
+  line-height: 1rem;
+  color: white;
+}
+.close:hover {
+  color: red;
+}
