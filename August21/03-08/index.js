@@ -2,7 +2,7 @@ const fs = require("fs");
 
 // create file
 // appendFile will create file
-fs.appendFile("newText.txt","This is text for newText.txt",(err)=>{
+fs.appendFile("newText.txt","This is text for newText.txt \n",(err)=>{
     if (err) throw err;
     console.log("File is created")
 })
