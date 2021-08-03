@@ -1,0 +1,5 @@
+// const filePathName = "./filetobedeleted.txt";
+// fs.unlink(filePathName, (err)=>{
+//     if (err) throw err;
+//     console.log("File got deleted");
+// })

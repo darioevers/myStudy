@@ -1,0 +1,4 @@
+// fs.rename("./hello.txt","./helloRenamed.txt",(err)=>{
+//     if (err) throw err;
+//     console.log("File was renamed");
+// })

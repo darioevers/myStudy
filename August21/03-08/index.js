@@ -14,10 +14,22 @@ fs.readFile("./longText.txt","utf8",(err,data)=>{
 });
 
 // read file sync
+const data = fs.readFileSync("./longText.txt");
+console.log(data.toString());
+console.log("reading sync is done");
 
 // rename file
+// fs.rename("./hello.txt","./helloRenamed.txt",(err)=>{
+//     if (err) throw err;
+//     console.log("File was renamed");
+// })
 
 // delete file
+// const filePathName = "./filetobedeleted.txt";
+// fs.unlink(filePathName, (err)=>{
+//     if (err) throw err;
+//     console.log("File got deleted");
+// })
 
 // copy file
 
