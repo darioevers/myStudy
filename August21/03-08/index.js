@@ -32,6 +32,12 @@ console.log("reading sync is done");
 // })
 
 // copy file
+fs.copyFile("./original.txt","./originalcopy.txt",(err)=>{
+    if (err) throw err;
+    console.log("File was copied");
+});
 
 // open file
 // fs flags
+
+// 

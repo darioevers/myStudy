@@ -6,3 +6,5 @@ This is text for newText.txt
 This is text for newText.txt 
 This is text for newText.txt 
 This is text for newText.txt 
+This is text for newText.txt 
+This is text for newText.txt 
