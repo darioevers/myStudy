@@ -38,6 +38,7 @@ fs.copyFile("./original.txt","./originalcopy.txt",(err)=>{
 });
 
 // open file
-// fs flags
-
-// 
+fs.open("./newText.txt","w",(err)=>{
+    if (err) throw err;
+    console.log("File is opened");
+})
