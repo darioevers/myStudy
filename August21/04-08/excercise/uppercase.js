@@ -5,4 +5,4 @@ function firstLetterUpperCase(string) {
 console.log(firstLetterUpperCase('hello'));
 console.log(firstLetterUpperCase('HELLO'));
 console.log(firstLetterUpperCase('hElLo'));
-console.log(firstLetterUpperCase('hELLO'));
+console.log(firstLetterUpperCase('hElLo'));
